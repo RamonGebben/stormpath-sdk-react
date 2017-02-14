@@ -212,9 +212,9 @@ Renders any child components if there isn't an established user session.
 Specify the option `inGroup` to only show child components when a user isn't in a certain group.
 
 ```html
-<NotAuthenticated inGroup="administrator">
+<Authenticated inGroup="administrator">
   You are authenticated as an administrator!
-</NotAuthenticated>
+</Authenticated>
 ```
 
 If you want to specify more complex groups, please see section [Group Expressions](#group-expressions).
